@@ -1,0 +1,50 @@
+.project-wrapper {  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+    margin: 0 1rem;
+    grid-template-areas:
+      "nav-container"
+      "project-hero"
+      "description"
+      "img-cs"
+      "process"
+      "challenges"
+      "learned"
+      "changes"
+      "footer";
+  }
+  
+  .nav-container { grid-area: nav-container; }
+  .project-hero { grid-area: project-hero; background-color: var(--bg-color);}
+  .description { grid-area: description; background-color: var(--bg-color); }
+  .img-cs { grid-area: img-cs; background-color: var(--bg-color); }
+  .process { grid-area: process; background-color: var(--bg-color-inverted); }
+  .challenges { grid-area: challenges; background-color: var(--bg-color); }
+  .learned { grid-area: learned; background-color: var(--bg-color); }
+  .changes { grid-area: changes; background-color: var(--bg-color-inverted); }
+  .footer { grid-area: footer; }
+  
+  .project-wrapper > * {
+    border-radius: 16px;
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    min-width: 100%;
+  }
+  
+  .nav-container {
+    box-shadow: none;
+  }
+
+  .project-hero {
+    margin-top: 11vh;
+  }
+
+  @import "./project-hero";
+  @import "./description";
+  @import "./img-cs";
+  @import "./process";
+  @import "./challenges";
+  @import "./learned";
+  @import "./changes";

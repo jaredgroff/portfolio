@@ -1,0 +1,37 @@
+.about {  
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 1rem;
+  grid-template-areas:
+    "about-heading"
+    "about-text" 
+    "about-img";
+    h2 {
+      grid-area: about-heading;
+    }
+    .about-text {
+      grid-area: about-text;
+    }
+    .about-img-container {
+      grid-area: about-img;
+    }
+    p {
+      padding-bottom: 1rem;
+    }
+    img {
+      width: 100%;
+      border-radius: 16px;
+      background-color: #15202B;
+      box-shadow: var(--box-shadow);
+    }
+}
+.about-img-container {
+  text-align: center;
+}
+.about-img-dark {
+  display: none;
+}
+
+
+

@@ -1,0 +1,39 @@
+.project {
+  padding: 0;
+}
+.project h2 {
+  color: var(--heading-color);
+}
+.project h3 {
+  background-color: var(--heading-color);
+  color: var(--font-color-inverted);
+  font-size: var(--sm-fs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10em;
+  height: 1.875em;
+  border-radius: 2px;
+}
+.project p {
+  margin-bottom: 2rem;
+}
+.project-card {
+  padding: 2rem;
+}
+.project-tools {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  text-align: center;
+  .tool-container {
+    background-color: var(--bg-color);
+    color: inherit;
+    margin: 0 .125rem;
+    padding: 0;
+  }
+}
+
+
+
+

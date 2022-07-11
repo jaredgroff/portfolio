@@ -1,0 +1,31 @@
+.footer {
+  color: var(--font-color);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.footer ul {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.footer li {
+  text-transform: lowercase;
+  padding: 1rem;
+}
+
+.footer li:hover, .footer li:focus {
+  background-color: var(--hover-color-alt);
+  border-radius: 16px;
+}
+
+.footer p {
+  margin-bottom: 1rem;
+}
+
+

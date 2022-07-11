@@ -1,0 +1,49 @@
+// 600px
+@media (min-width: 37.5em) {
+
+}
+
+// 768px
+@media (min-width: 48em) {
+
+}
+
+// 1024px
+@media (min-width: 64em) {
+    .project-wrapper {  display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0 10vw;
+        grid-template-areas:
+          "nav-container nav-container nav-container nav-container"
+          "project-hero project-hero project-hero project-hero"
+          "description description img-cs img-cs"
+          "process process process process"
+          "challenges challenges learned learned"
+          "changes changes changes changes"
+          "footer footer footer footer";
+      }
+}
+
+// 1280px
+@media (min-width: 80em) {
+
+}
+
+// 1366px
+@media (min-width: 85.375em) {
+
+}
+
+// 1920px
+@media (min-width: 85.375em) {
+
+}
+// 2560px
+@media (min-width: 160em) {
+
+}
+
+// 3840px
+@media (min-width: 240em) {
+
+}

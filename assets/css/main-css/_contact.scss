@@ -1,0 +1,19 @@
+.contact {
+  color: var(--font-color-light);
+  display: flex;
+  padding-right: 0;
+}
+.contact h2 {
+  color:var(--heading-color-inverteds);
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.contact p {
+  padding-bottom: 2rem;
+}

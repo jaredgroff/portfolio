@@ -1,0 +1,84 @@
+:root {
+  --canvas-color: #e0e0e0;
+  --bg-color: #ffffff;
+  --bg-color-inverted: #192734;
+
+  --accent-color: #1d9bf0;
+  --accent-color-gradient: linear-gradient(-45deg, var(--accent-color), #19E3AB, var(--accent-color));
+
+  --heading-color: #192734;
+  --heading-color-inverted: #8899A6;
+
+  --font-color: #22303C;
+  --font-color-inverted: #ffffff;
+  --font-color-light: #ffffff;
+  --font-color-dark: #22303C;
+
+  --link-color: #192734;
+  --hover-color: #ffffff;
+  --hover-color-alt: #e7e7e8;
+
+  --heading-ff: 'Montserrat', sans-serif;
+  --body-ff: 'Karla', sans-serif;
+  --xl-fs: 2.5rem;
+  --lg-fs: 1.75rem;
+  --base-fs: 1rem;
+  --sm-fs: .75rem;
+  --box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+.darkmode {
+  --canvas-color: #15202B;
+  --bg-color: #192734;
+
+  --accent-color-gradient: linear-gradient(-45deg, var(--accent-color), #22303C, var(--accent-color));
+
+  --heading-color: #8899A6;
+
+  --font-color: #ffffff;
+  --font-color-inverted: #22303C;
+
+  --link-color: #ffffff;
+  --hover-color: #22303C;
+
+  .accessibility-mode-toggle {
+    content: url('../img/svgs/accessibility-icon-dark.svg');
+  }
+  .about-img {
+    display: none;
+  }
+  .about-img-dark {
+    display: inline-block;
+    width: 100%;
+    border-radius: 16px;
+    background-color: var(--canvas-color);
+    box-shadow: var(--box-shadow);
+  }
+}
+
+.accessibilitymode {
+  --box-shadow: #000000 0px 0px 0px 2px, #000000 0px 0px 0px 2px;
+  --base-fs: 1.25em;
+  .accessibility-mode-toggle {
+    content: url('../img/svgs/accessibility-icon-on.svg');
+    background-color: var(--hover-color);
+    border-radius: 16px;
+  }
+  .timeline-year, .organization {
+    color: var(--font-color);
+  }
+}
+
+
+
+// Color codes
+//Twitter
+$background: #15202B;
+$card: #192734;
+$hover-color: #22303C;
+$primary-text: #FFFFFF;
+$secondary-text: #8899A6;
+
+
+

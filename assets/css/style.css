@@ -704,7 +704,7 @@ hr {
 }
 
 .project1-img {
-  background-image: url("../img/projects/nonprofit.jpg");
+  background-image: url("../img/projects/foreverreaders.jpg");
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -961,7 +961,7 @@ hr {
     max-width: 50%;
   }
   .project1-img-lg {
-    background-image: url("../img/projects/nonprofit.jpg");
+    background-image: url("../img/projects/foreverreaders.jpg");
     background-size: cover;
     background-position: bottom;
     width: 100%;

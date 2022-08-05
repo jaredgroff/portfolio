@@ -1,37 +1,37 @@
 // 600px
-@media (min-width: 37.5em) { 
+@media (min-width: 37.5em) {
   .nav-links li a {
     padding: 1rem;
   }
   .hero h2 {
     max-width: 75%;
   }
-  .about-img, .about-img-dark {
+  .about-img,
+  .about-img-dark {
     margin: 0 auto;
   }
   .project-tools {
     .tool-container {
-      margin: 0 .75rem;
+      margin: 0 0.75rem;
     }
   }
 }
 
 // 768px
-@media (min-width:48em) { 
-  .grid-wrapper {  
+@media (min-width: 48em) {
+  .grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
-    "navbar navbar navbar navbar"
-    "hero hero hero hero"
-    "about about about about"
-    "toolkit toolkit toolkit toolkit"
-    "employment employment education education"
-    "project1 project1 project1 project1"
-/*     "project1 project1 project2 project2"
-    "project3 project3 project4 project4" */
-    "contact contact contact contact"
-    "footer footer footer footer";
+      "navbar navbar navbar navbar"
+      "hero hero hero hero"
+      "about about about about"
+      "toolkit toolkit toolkit toolkit"
+      "employment employment education education"
+      "project1 project1 project1 project1"
+      "project2 project2 project3 project3"
+      "contact contact contact contact"
+      "footer footer footer footer";
   }
   .hero h2 {
     width: 75%;
@@ -45,21 +45,20 @@
 
 // 1024px
 @media (min-width: 64em) {
-  .grid-wrapper {  
+  .grid-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 0 10vw;
     grid-template-areas:
-    "navbar navbar navbar navbar"
-    "hero hero hero hero"
-    "about about about about"
-    "toolkit toolkit toolkit toolkit"
-    "employment employment education education"
-    "project1 project1 project1 project1"
-/*     "project1 project1 project2 project2"
-    "project3 project3 project4 project4" */
-    "contact contact contact contact"
-    "footer footer footer footer";
+      "navbar navbar navbar navbar"
+      "hero hero hero hero"
+      "about about about about"
+      "toolkit toolkit toolkit toolkit"
+      "employment employment education education"
+      "project1 project1 project1 project1"
+      "project2 project2 project3 project3"
+      "contact contact contact contact"
+      "footer footer footer footer";
   }
   .nav-container {
     padding: 0 9vw;
@@ -67,7 +66,7 @@
   .hero h2 {
     width: 60%;
   }
-  .about {  
+  .about {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -80,19 +79,19 @@
 
 // 1280px
 @media (min-width: 80em) {
-  .grid-wrapper {  
+  .grid-wrapper {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas:
-    "navbar navbar navbar navbar navbar navbar"
-    "hero hero hero hero hero hero"
-    "about about about about about about"
-    "toolkit toolkit toolkit toolkit toolkit toolkit"
-    "employment employment employment education education education"
-    "project1 project1 project1 project1 project1 project1"
-/*     "project2 project2 project3 project3 project4 project4" */
-    "contact contact contact contact contact contact"
-    "footer footer footer footer footer footer";
+      "navbar navbar navbar navbar navbar navbar"
+      "hero hero hero hero hero hero"
+      "about about about about about about"
+      "toolkit toolkit toolkit toolkit toolkit toolkit"
+      "employment employment employment education education education"
+      "project1 project1 project1 project1 project1 project1"
+      "project2 project2 project2 project3 project3 project3"
+      "contact contact contact contact contact contact"
+      "footer footer footer footer footer footer";
   }
   .project1 {
     display: flex;
@@ -102,9 +101,9 @@
     }
   }
   .project1-img-lg {
-    background-image: url("../img/projects/foreverreaders.jpg");
+    background-image: url("../img/projects/dadscc.svg");
     background-size: cover;
-    background-position: bottom;
+    background-position: right;
     width: 100%;
     border-radius: 0 16px 16px 0;
   }
@@ -118,12 +117,10 @@
 
 // 1366px
 @media (min-width: 85.375em) {
-
 }
 
 // 1920px
 @media (min-width: 120em) {
-
 }
 
 // 2560px

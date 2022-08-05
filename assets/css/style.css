@@ -149,7 +149,10 @@ strong {
   width: 10em;
 }
 
-.button:hover, .button:focus, .button-secondary:hover, .button-secondary:focus {
+.button:hover,
+.button:focus,
+.button-secondary:hover,
+.button-secondary:focus {
   transform: scale(1.05) translateY(-0.125em);
 }
 
@@ -172,7 +175,7 @@ strong {
   grid-template-rows: auto;
   gap: 1rem;
   margin: 0 1rem;
-  grid-template-areas: "nav" "hero" "about" "toolkit" "employment" "education" "project1" "contact" "footer";
+  grid-template-areas: "nav" "hero" "about" "toolkit" "employment" "education" "project1" "project2" "project3" "contact" "footer";
 }
 
 .nav-container {
@@ -213,13 +216,11 @@ strong {
 .project2 {
   grid-area: project2;
   background-color: var(--bg-color);
-  display: none;
 }
 
 .project3 {
   grid-area: project3;
   background-color: var(--bg-color);
-  display: none;
 }
 
 .project4 {
@@ -309,7 +310,8 @@ hr {
   padding: 0.5rem;
 }
 
-.nav-links li a:hover, .nav-links li a:focus {
+.nav-links li a:hover,
+.nav-links li a:focus {
   background-color: var(--hover-color);
   border-radius: 16px;
 }
@@ -352,7 +354,8 @@ hr {
   padding: 0.5rem;
 }
 
-.dark-mode-toggle:hover, .dark-mode-toggle:focus {
+.dark-mode-toggle:hover,
+.dark-mode-toggle:focus {
   background-color: var(--hover-color);
   border-radius: 16px;
 }
@@ -704,6 +707,15 @@ hr {
 }
 
 .project1-img {
+  background-image: url("../img/projects/dadscc.svg");
+  background-size: cover;
+  background-position: right;
+  height: 300px;
+  padding: 2rem;
+  border-radius: 16px 16px 0 0;
+}
+
+.project2-img {
   background-image: url("../img/projects/foreverreaders.jpg");
   background-size: cover;
   background-position: center;
@@ -712,17 +724,8 @@ hr {
   border-radius: 16px 16px 0 0;
 }
 
-.project2-img {
-  background-image: url("../img/projects/nonprofit.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 300px;
-  padding: 2rem;
-  border-radius: 16px 16px 0 0;
-}
-
 .project3-img {
-  background-image: url("../img/projects/icecream.jpg");
+  background-image: url("../img/projects/project3.jpg");
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -906,7 +909,8 @@ hr {
   .hero h2 {
     max-width: 75%;
   }
-  .about-img, .about-img-dark {
+  .about-img,
+.about-img-dark {
     margin: 0 auto;
   }
   .project-tools .tool-container {
@@ -917,7 +921,7 @@ hr {
   .grid-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "navbar navbar navbar navbar" "hero hero hero hero" "about about about about" "toolkit toolkit toolkit toolkit" "employment employment education education" "project1 project1 project1 project1" "contact contact contact contact" "footer footer footer footer";
+    grid-template-areas: "navbar navbar navbar navbar" "hero hero hero hero" "about about about about" "toolkit toolkit toolkit toolkit" "employment employment education education" "project1 project1 project1 project1" "project2 project2 project3 project3" "contact contact contact contact" "footer footer footer footer";
   }
   .hero h2 {
     width: 75%;
@@ -931,7 +935,7 @@ hr {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 0 10vw;
-    grid-template-areas: "navbar navbar navbar navbar" "hero hero hero hero" "about about about about" "toolkit toolkit toolkit toolkit" "employment employment education education" "project1 project1 project1 project1" "contact contact contact contact" "footer footer footer footer";
+    grid-template-areas: "navbar navbar navbar navbar" "hero hero hero hero" "about about about about" "toolkit toolkit toolkit toolkit" "employment employment education education" "project1 project1 project1 project1" "project2 project2 project3 project3" "contact contact contact contact" "footer footer footer footer";
   }
   .nav-container {
     padding: 0 9vw;
@@ -951,7 +955,7 @@ hr {
   .grid-wrapper {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-areas: "navbar navbar navbar navbar navbar navbar" "hero hero hero hero hero hero" "about about about about about about" "toolkit toolkit toolkit toolkit toolkit toolkit" "employment employment employment education education education" "project1 project1 project1 project1 project1 project1" "contact contact contact contact contact contact" "footer footer footer footer footer footer";
+    grid-template-areas: "navbar navbar navbar navbar navbar navbar" "hero hero hero hero hero hero" "about about about about about about" "toolkit toolkit toolkit toolkit toolkit toolkit" "employment employment employment education education education" "project1 project1 project1 project1 project1 project1" "project2 project2 project2 project3 project3 project3" "contact contact contact contact contact contact" "footer footer footer footer footer footer";
   }
   .project1 {
     display: flex;
@@ -961,9 +965,9 @@ hr {
     max-width: 50%;
   }
   .project1-img-lg {
-    background-image: url("../img/projects/foreverreaders.jpg");
+    background-image: url("../img/projects/dadscc.svg");
     background-size: cover;
-    background-position: bottom;
+    background-position: right;
     width: 100%;
     border-radius: 0 16px 16px 0;
   }

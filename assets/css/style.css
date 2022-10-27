@@ -733,6 +733,11 @@ hr {
   border-radius: 16px 16px 0 0;
 }
 
+.project3 .button:hover,
+.project3 .button-secondary:hover {
+  cursor: not-allowed;
+}
+
 .project4-img {
   background-image: url("../img/projects/skateboard.jpg");
   background-size: cover;

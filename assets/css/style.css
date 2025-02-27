@@ -145,8 +145,7 @@ strong {
   border: 2px solid var(--accent-color);
   color: var(--font-color-light);
   font-weight: 700;
-  padding: 5px 0;
-  width: 10em;
+  padding: 1rem 1.5rem;
 }
 
 .button:hover,

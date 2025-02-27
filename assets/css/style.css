@@ -174,7 +174,7 @@ strong {
   grid-template-rows: auto;
   gap: 1rem;
   margin: 0 1rem;
-  grid-template-areas: "nav" "hero" "about" "toolkit" "employment" "education" "project1" "project2" "project3" "contact" "footer";
+  grid-template-areas: "hero";
 }
 
 .nav-container {
